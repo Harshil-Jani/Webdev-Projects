@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Survey Form
+        </title>
+        <style>
+            form{
+                display: ruby-base-container;
+            }
+            body{
+                color: blanchedalmond;
+                
+            }
+          
+        </style>
+    </head>
+    <body bgcolor="#262626">
+        <h1 id="title">NACTORE Survey Form</h1>
+        <p id="description">The Survey Form by NACTORE Organization allows us to know what people finds unique in us. We would be delightful to those who takes this Survey Form and help us to Improve</p>
+        <form id="survey-form">
+            <h3>Name*</h3>
+            <label id="name-label" placeholder="Name">
+                <input type="text" required>
+            </label>
+            <h3>Email ID*</h3>
+            <label id="email-label" placeholder="Email">
+                <input type="email" required max="100" min="12">
+            </label>
+            <h3>Age*</h3>
+            <label id="number-label" placeholder="Number">
+                <input type="number" required>
+            </label>
+            
+
+            <h3>What role would you prefer at NACTORE if we hire?</h3>
+            
+            <select id="dropdown">
+                <option disabled selected value="Select">Select An Option</option>
+                <option>Guest Writer</option>
+                <option>Permenant Writer</option>
+                <option>Admin</option>
+                <option>Plagerism Checker</option>
+                <option>Developer</option>
+            </select>
+
+            <h3>What is your Current Role?</h3>
+           
+            <input type="radio" name="position">Student
+            <input type="radio" name="position">Professinals
+            <input type="radio" name="position">Interns
+
+            <h3>Which Pages of NACTORE have you explored?</h3>
+            <input type="checkbox" value="pages">Enjoineering Forum<br>
+            <input type="checkbox" value="pages">Article Section<br>
+            <input type="checkbox" value="pages">About Us<br>
+            <input type="checkbox" value="pages">Programming Hub<br>
+            <input type="checkbox" value="pages">Photonic-VIrtual Retina<br>
+
+            <h3>Any Personal Opinions or Recommandations? Leave them below</h3>
+            <label aria-placeholder="Comments">
+                <textarea>
+                    Text here!
+                </textarea>
+            </label>
+            <br>
+            <input type="button" value="Submit" id="submit">
+        </form>
+    </body>
+</html>
