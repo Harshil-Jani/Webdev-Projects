@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Product Page
+        </title>
+        <style>
+            #header-img{
+                text-align: left;
+                width: 50px;
+                height: 50px;
+                margin: 0px 0px 0px 0px;
+                padding-left: 0px;
+            }
+            nav{
+             text-align: center;
+             padding-bottom: 10px;
+            }
+            @media only screen and (max-width: 600px){
+                body{
+                    background-color: lightcoral;
+                }
+
+            }
+            .Price{
+                flex: content;
+                flex-direction: row-reverse;
+            }
+        </style>
+    </head>
+    <body bgcolor="lightgreen">
+       <header id="header">
+          
+           <nav id="nav-bar">
+                
+            <img align="left" src="data:image/png;base64,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" id="header-img">
+            <br>
+               <a href="about.html" class="nav-link">About Us</a>&nbsp;&nbsp;&nbsp;&nbsp;
+               <a href="Pricing.html" class="nav-link">Pricing</a>&nbsp;&nbsp;&nbsp;&nbsp;
+               <a href="features.html" class="nav-link">Features</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            </nav>
+       </header>
+       <main>
+           <h3>Get Idea of Why you need our Product !!</h3>
+           <iframe width="575" height="323" src="https://www.youtube.com/embed/GrI5c9PXS5k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <form id="form">Enter Email<br>
+            <input type="email" id="email" placeholder="Email">
+            <input type="submit" id="submit" href="https://www.freecodecamp.org/email-submit">
+        </form>
+        <div class="Price">
+            <button align="left">$100 for Student Plan</button>
+        </div>
+        <div class="Price">
+            <button align="right">$300 for Professional Plan</button>
+        </div>
+       </main>
+    </body>
+</html>
