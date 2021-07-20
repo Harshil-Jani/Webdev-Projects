@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 25px;
+}
+a{
+    margin-right: 25px;
+}
+svg{
+    height: 30px;
+    width: 30px;
+    margin-top: -5px;
+    padding-right: 20px;
+}
+.topimage{
+    width: 30px;
+    height: 30px;
+    background-color: blue;
+    border-radius: 50%;
+    margin-top: -5px;
+}
+main{
+    margin-top: 100px;
+}
+#logo{
+    text-align: center;
+}
+#search{
+    text-align: center;
+    margin-top: 10px;
+}
+#searchbar{
+    width: 600px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    outline: 0;
+    border-radius: 50px ;
+    border: 1px solid rgb(124, 110, 54);
+}
+#buttons{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.button{
+    margin-right: 20px;
+    margin-left: 20px;
+    margin: top 20px; ;
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: #d6d6d8;
+    border-radius: 5px;
+}
+#links{
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 10px ;
+}
+footer{
+    /* margin-bottom: 0px; */
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(241, 241, 241);
+}
+#part1{
+    padding-bottom: 1px;
+    padding-left: 20px;
+}
+#part2{
+    padding-bottom: 20px;
+    padding-left: 20px;
+    display: flex;
+}
+#sub1{
+    display: flex;
+    justify-content: flex-start;
+}
+#sub2{
+    display: flex;
+    justify-content: flex-end;
+}
