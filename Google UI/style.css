@@ -1,88 +1,193 @@
-body{
-    margin: 0;
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
 
+html {
+  font-size: 65%;
 }
-nav{
-    display: flex;
-    justify-content: flex-end;
-    margin-top: 25px;
+
+
+a {
+  color: inherit;
+  text-decoration: none;
 }
-a{
-    margin-right: 25px;
+
+img {
+  display: block;
+  width: 100%;
 }
-svg{
-    height: 30px;
-    width: 30px;
-    margin-top: -5px;
-    padding-right: 20px;
+
+input {
+  border: none;
+  outline: none;
 }
-.topimage{
-    width: 30px;
-    height: 30px;
-    background-color: blue;
-    border-radius: 50%;
-    margin-top: -5px;
+
+button {
+  border: none;
+  font-family: inherit;
+  cursor: pointer;
 }
-main{
-    margin-top: 100px;
+
+button:focus {
+  outline: none;
 }
-#logo{
-    text-align: center;
+
+.nav {
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 1.5rem;
+  font-size: 1.3rem;
 }
-#search{
-    text-align: center;
-    margin-top: 10px;
+
+.nav-link {
+  margin-right: 1.5rem;
 }
-#searchbar{
-    width: 600px;
-    padding-top: 10px;
-    padding-left: 10px;
-    padding-bottom: 10px;
-    outline: 0;
-    border-radius: 50px ;
-    border: 1px solid rgb(124, 110, 54);
+
+.nav-link:hover {
+  text-decoration: underline;
 }
-#buttons{
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
+
+.button-apps {
+  width: 30px;
+  height: 30px;
+  margin-right: 1.5rem;
 }
-.button{
-    margin-right: 20px;
-    margin-left: 20px;
-    margin: top 20px; ;
-    padding: 5px 10px;
-    cursor: pointer;
-    background-color: #d6d6d8;
-    border-radius: 5px;
+
+.button-apps:hover,
+.button-apps:focus {
+  opacity: 0.3;
 }
-#links{
-    text-align: center;
-    padding-top: 20px;
-    margin-top: 10px ;
+
+.user-avatar{
+  height: 30px;
+  width: 30px;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  margin-right: 3rem;
+  background-color: rgb(36, 137, 231);
 }
-footer{
-    /* margin-bottom: 0px; */
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: rgb(241, 241, 241);
+
+.user-avatar:hover {
+  border: 3px solid rgb(116, 116, 116);
 }
-#part1{
-    padding-bottom: 1px;
-    padding-left: 20px;
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: flex-start; */
+  margin-top: 10rem;
 }
-#part2{
-    padding-bottom: 20px;
-    padding-left: 20px;
-    display: flex;
+
+.logo {
+  width: 300px;
+  height: 100px;
+  margin-bottom: 3rem;
 }
-#sub1{
-    display: flex;
-    justify-content: flex-start;
+
+.searchbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 600px;
+  padding: 1rem;
+  padding-right: 1.5rem;
+  border: 1px solid rgb(211, 211, 211);
+  border-radius: 30px;
 }
-#sub2{
-    display: flex;
-    justify-content: flex-end;
+
+.searchbar:hover,
+.searchbar:focus{
+  border-color: white;
+  box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+}
+
+.search-icon {
+  width: 25px;
+  height: 25px;
+  margin-right: 1rem;
+}
+
+.search-input {
+  width: 100%;
+  font-size: 1.6rem;
+}
+
+.search-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2.4rem;
+}
+
+.button-search {
+  min-width: 60px;
+  height: 40px;
+  padding:  0 2rem;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  margin: 0.7rem;
+  background-color: rgb(241, 241, 241);
+  font-size: 1.4rem;
+}
+
+.button-search:hover {
+  border-color: #dadce0;
+  box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+}
+
+.button-search:focus {
+  border-color: rgb(184, 184, 184);
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+  width: 100%;
+  border: 1px solid transparent;
+  background: rgb(240, 240, 240);
+  font-size: 1.4rem;
+}
+
+.left-section,
+.right-section {
+  display: flex;
+}
+
+.right-section {
+  margin-right: 3rem;
+}
+
+.footer-link {
+  display: block;
+  padding: 1rem 0 1rem 3rem;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}
+
+
+@media (max-width: 800px) {
+  .footer {
+    flex-direction: column;
+  }
+
+  .searchbar {
+    width: 80%;
+  }
+
+  html {
+    font-size: 50%;
+  }
 }
