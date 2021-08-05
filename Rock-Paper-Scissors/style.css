@@ -1,0 +1,97 @@
+*,
+::after,
+::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 62.5%;
+    font-family:sans-serif;
+    background-color: rgb(5, 20, 70);
+    color: rgb(241, 231, 231);
+}
+header{
+    width: 102%;
+    font-size: 200%;
+    text-align: center;
+    background-color: rgb(255, 208, 0);
+    height: 100px;
+}
+header>h1{
+    padding-top: 25px;
+    color: brown;
+}
+#score{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 40px;
+}
+#modes{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+    margin-top: 50px;
+}
+#result{
+    margin-top:50px;
+    font-size: 220%;
+    text-align: center;
+}
+#options{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+button{
+    padding: 40px 40px;
+    margin-top: 20px;
+    background-color: brown;
+    color: whitesmoke;
+    border-radius: 10px;
+    font-size: 150%;
+}
+button:hover{
+    box-shadow: grey;
+    opacity: 0.9;
+}
+footer{ 
+    width: 100%;
+    position: absolute;
+    bottom: 10px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    font-size: 120%;
+}
+.green-glow{
+    border: 4px solid green;
+    box-shadow: 0 0 10px green;
+}
+.red-glow{
+    border: 4px solid red;
+    box-shadow: 0 0 10px red;
+}
+.blue-glow{
+    border: 4px solid rgb(21, 154, 231);
+    box-shadow: 0 0 10px rgb(21, 154, 231);
+}
+@media screen and (max-width: 500px) {
+    html{
+        font-size: 70%;
+    }
+    header>h1{
+        padding-top: 35px;
+    }
+    #score{
+        margin-bottom: 30px;
+    }
+    #modes{
+        margin-bottom: 50px;
+    }
+    button{
+        margin-top: 40px;
+        padding: 30px 30px;   
+    }
+}
