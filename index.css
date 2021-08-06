@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: lightgoldenrodyellow;
+}
+hr{
+    opacity: 0.4;
+}
+body{
+    background-color: #f2ebe9;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    background-color: #eddcd9;
+}
+nav>h1{
+    font-family: 'Lobster', cursive;
+    margin-left: 20px;
+    font-size: 50px;
+    letter-spacing: 1.5px;
+}
+.css{
+    font-family: 'Fjalla One', sans-serif;
+    letter-spacing: 2px;
+    font-size: 220%;
+    color: #264143;
+    margin-left: 40px;
+    margin-top:20px;
+}
+#CSS{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin: 0 30px;
+   
+}
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 30%;
+    height : 30%;
+    margin: 20px 20px;
+    padding: 80px 120px;
+    border-radius: 15px;
+    background-color: #229fa8;
+    color: wheat;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
+  }
+
+.js{
+    font-family: 'Fjalla One', sans-serif;
+    letter-spacing: 2px;
+    font-size: 220%;
+    color: #264143;
+    margin-left: 40px;
+    padding-top: 20px;
+}
+#JS{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin: 0 30px;
+}
+footer{
+    text-align: center;
+    background-color: rgb(255, 167, 196);
+    padding: 15px;
+    color: #cc313d;
+}
+
+.CSS_Bg{
+    background-color: #f2ebe9;
+}
+.JS_Bg{
+    margin: 0;
+    background-color: #f5cfc5;
+}
+
+@media screen and (max-width: 1000px) {
+    body{
+        font-size: 130%;
+        height: 200px;
+        background-color: #f5cfc5 ;
+    }
+    nav{
+        width: 120%;
+    }
+   
+    #CSS{
+        font-size: 80%;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: space-evenly;
+        margin: 100px 0 ;
+    }
+    #JS{
+        font-size: 80%;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: space-evenly;
+        margin: 100px 0 ;
+    }
+    footer{
+        position: relative;
+        bottom: 0;
+        width: 120%;
+    }
+    .JS_Bg{
+        padding-bottom: 10px;
+    }
+    .CSS_Bg{
+        background-color: #f5cfc5 ;
+        padding-top: 20px;
+    }
+    .card{
+       width: 100%;
+       justify-content: center;
+       margin-left: 200px;
+    }
+    .css{
+        width: 100%;
+        justify-content: center;
+    }
+}
