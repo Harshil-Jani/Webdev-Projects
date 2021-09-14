@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url(/Florin-Pop-Challenge/Coundown-Timer/index_bg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    min-height: 100vh;
+    margin: 0;
+}
+.countdown {
+    display: flex;
+}
+.text{
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0 2rem;
+    font-weight: bold;
+}
+.elem{
+    text-align: center;
+}
+.elem>span{
+    font-weight: 900    ;
+}
+h1{
+    font-size : 5rem;
+    margin-top: -10rem;
+}
