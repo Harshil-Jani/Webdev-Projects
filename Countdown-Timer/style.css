@@ -32,3 +32,23 @@ h1{
     font-size : 5rem;
     margin-top: -10rem;
 }
+@media screen and (max-width:600px){
+    .text{
+    font-size: 35px;
+    margin: 0 20px;
+    }
+    h1{
+    font-size : 50px;
+}
+}
+@media screen and (max-width:350px){
+    .text{
+    font-size: 20px;
+    margin: 0 20px;
+    }
+    h1{
+    font-size : 33px;
+}
+}
+
+
