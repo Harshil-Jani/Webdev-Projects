@@ -53,7 +53,8 @@ p{
         font-size: 50%;
     }
     canvas{
-        height: 250px;
-        width: 300px;
+        height: 200px;
+        width: 400px;
+        margin : 20px 0;
     }
   }
