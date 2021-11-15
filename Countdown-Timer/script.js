@@ -26,10 +26,5 @@ function formatTime(time){
         return time;
     }
 }
-function year_increment(time){
-    if(days==0){
-        return 
-    }
-}
 countdown();
 setInterval(countdown,1000);
