@@ -3,7 +3,7 @@ hours_elem = document.getElementById('hours');
 minutes_elem = document.getElementById('minutes');
 seconds_elem = document.getElementById('seconds');
 
-const dest_date = "17 Feb 2021";
+const dest_date = "17 Feb 2022";
 function countdown(){
     const final_date = new Date(dest_date);
     const current_date = new Date();
