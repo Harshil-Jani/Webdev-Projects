@@ -1,0 +1,63 @@
+*{
+  box-sizing: border-box;
+  margin : 0;
+  padding : 0;
+  width: 100%;
+}
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-content: center;
+  text-align: center;
+  background-color: skyblue;
+}
+nav{
+  font-size: 200%;
+}
+main{
+  display: flex;
+  flex-direction: row;
+}
+main>div{
+  background-color: white;
+}
+.emoji{
+  font-size: 10rem;
+  cursor: pointer;
+  user-select: none;
+  border: 0.5px solid rgb(155, 155, 155);
+  margin : 10px;
+  margin-top: 10vh;
+  border-radius: 10px;
+}
+.closed{
+  display: none;
+}
+.open{
+  display: none;
+}
+.active{
+  display: block;
+}
+.hide{
+  display: none;
+}
+@media only screen and (max-width: 890px) {
+  body{
+    background-color: pink;
+  }
+  main{
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 15px;
+  }
+  main>div{
+    width: 90%;
+    background-color: antiquewhite;
+  }
+  .emoji{
+    margin: 2vh;
+  }
+}
