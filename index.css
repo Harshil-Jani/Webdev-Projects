@@ -75,6 +75,20 @@ nav>h1{
     flex-wrap: wrap;
     margin: 0 30px;
 }
+.react{
+    font-family: 'Fjalla One', sans-serif;
+    letter-spacing: 2px;
+    font-size: 220%;
+    color: #264143;
+    margin-left: 40px;
+    padding-top: 20px;
+}
+#REACT{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin: 0 30px;   
+}
 footer{
     text-align: center;
     background-color: rgb(255, 167, 196);
@@ -89,7 +103,9 @@ footer{
     margin: 0;
     background-color: #f5cfc5;
 }
-
+.REACT_Bg{
+    background-color: pink;
+}
 @media screen and (max-width: 1000px) {
     body{
         font-size: 130%;

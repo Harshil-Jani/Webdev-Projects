@@ -1,0 +1,31 @@
+.main{
+    color: white;
+    text-align: center;
+}
+h1,p{
+    margin : 2px;
+}
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.buttons{
+    margin : 10px;
+}
+button{
+    margin: 0 10px;
+    border-radius: 10px;
+}
+
+.github{
+    font-size: larger;
+    background-color: rgb(53, 53, 53);
+    color: rgb(180, 180, 180);
+    font-weight: bold;
+}
+
+.linkedin{
+    font-size:larger;
+    background-color: rgb(13, 166, 212);
+    color: white;
+    font-weight: bold;
+}
