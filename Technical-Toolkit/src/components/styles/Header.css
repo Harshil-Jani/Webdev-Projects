@@ -10,3 +10,12 @@ section{
     font-size: 300%;
     margin-bottom: 0;
 }
+
+@media screen and (max-width: 600px) {
+    .techTree{
+        height : 400px;
+    }
+    .myName{
+        font-size: 200%;
+    }
+  }
