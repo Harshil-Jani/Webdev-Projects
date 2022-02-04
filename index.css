@@ -55,6 +55,8 @@ nav>h1{
     text-align: center;
     justify-content: center;
     align-items: center;
+    min-width: 400px;
+    max-height: 200px;
 }
 
 .card:hover {
