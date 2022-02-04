@@ -1,0 +1,13 @@
+.footer{
+    text-align: center;
+    width: 100%;
+    overflow: hidden;
+}
+
+#react{
+    color: rgb(70, 70, 187);
+}
+
+#name{
+    color: crimson;
+}

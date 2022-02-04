@@ -1,0 +1,12 @@
+.techTree{
+    height : 800px;
+    width: 100%;
+}
+section{
+    display: flex;
+    flex-direction: column;
+}
+.myName{
+    font-size: 300%;
+    margin-bottom: 0;
+}

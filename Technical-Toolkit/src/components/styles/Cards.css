@@ -1,0 +1,32 @@
+.cards{
+    width: 450px;
+    height: 350px;
+    box-shadow: 3px 6px 10px 7px rgba(0,0,0,0.75);
+    padding: 20px;
+    margin: 20px;
+    border: none; 
+    min-width: 250px;
+}
+
+.card-image{
+    width: 100%;
+    height: 60%;
+    border-radius: 10px;
+    min-height : 50px;
+}
+.cardBottom{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.entry{
+    font-size: 150%;
+    text-align: center;
+    height : 70px;
+    justify-content: center;
+}
+.resources{
+    margin-top : 10px;
+    margin-bottom: 5px;
+}
