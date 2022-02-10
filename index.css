@@ -107,6 +107,7 @@ footer{
 }
 .REACT_Bg{
     background-color: pink;
+    width: 100%;
 }
 @media screen and (max-width: 1000px) {
     body{
